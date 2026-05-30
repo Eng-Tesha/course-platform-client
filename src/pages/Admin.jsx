@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import API from '../api/axios';
 import { useAuth } from '../context/AuthContext';
 
+
 const Admin = () => {
   const [courses, setCourses] = useState([]);
   const [loading, setLoading] = useState(true);
